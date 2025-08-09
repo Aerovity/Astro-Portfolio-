@@ -15,7 +15,7 @@ const NavBar = () => {
     };
 
     return (
-        <nav className="nowrap fixed bottom-10 left-0 right-0 z-50 my-0 mx-auto flex items-center justify-center gap-1 px-1 py-1 text-[#e4ded7] sm:w-[383.3px] md:p-2 lg:w-[391.3px]">
+        <nav className="nowrap fixed bottom-10 left-0 right-0 z-50 my-0 mx-auto flex items-center justify-center gap-0.5 px-1 py-1 text-[#e4ded7] sm:w-[500px] md:p-2 lg:w-[520px]">
             <Container
                 width="100%"
                 height="50px"
@@ -25,14 +25,14 @@ const NavBar = () => {
                 left="0px"
                 angle={0}
             >
-                <nav className="nowrap fixed bottom-30 left-0 right-0 z-50 my-0 mx-auto flex items-center justify-center gap-1 rounded-lg px-1 py-1 text-[#e4ded7] sm:w-[383.3px] md:p-2 lg:w-[391.3px]">
+                <nav className="nowrap fixed bottom-30 left-0 right-0 z-50 my-0 mx-auto flex items-center justify-center gap-0.5 rounded-lg px-1 py-1 text-[#e4ded7] sm:w-[500px] md:p-2 lg:w-[520px]">
                     <Link
                         href="#home"
                         data-blobity-magnetic="false"
                         onClick={handleScroll}
                         aria-label="Scroll to Home Section"
                     >
-                        <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
+                        <h4 className="py-2 px-1.5 text-[12px] sm:px-3 sm:text-[14px] md:py-1 md:px-3">
               HOME
                         </h4>
                     </Link>
@@ -43,7 +43,7 @@ const NavBar = () => {
                         onClick={handleScroll}
                         aria-label="Scroll to About Section"
                     >
-                        <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
+                        <h4 className="py-2 px-1.5 text-[12px] sm:px-3 sm:text-[14px] md:py-1 md:px-3">
               ABOUT
                         </h4>
                     </Link>
@@ -54,8 +54,30 @@ const NavBar = () => {
                         onClick={handleScroll}
                         aria-label="Scroll to Work Section"
                     >
-                        <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
+                        <h4 className="py-2 px-1.5 text-[12px] sm:px-3 sm:text-[14px] md:py-1 md:px-3">
               WORK
+                        </h4>
+                    </Link>
+
+                    <Link
+                        href="#tools"
+                        data-blobity-magnetic="false"
+                        onClick={handleScroll}
+                        aria-label="Scroll to Tools Section"
+                    >
+                        <h4 className="py-2 px-1.5 text-[12px] sm:px-3 sm:text-[14px] md:py-1 md:px-3">
+              TOOLS
+                        </h4>
+                    </Link>
+
+                    <Link
+                        href="#certifications"
+                        data-blobity-magnetic="false"
+                        onClick={handleScroll}
+                        aria-label="Scroll to Certifications Section"
+                    >
+                        <h4 className="py-2 px-1.5 text-[12px] sm:px-3 sm:text-[14px] md:py-1 md:px-3">
+              CERTIFICATIONS
                         </h4>
                     </Link>
 
@@ -65,7 +87,7 @@ const NavBar = () => {
                         onClick={handleScroll}
                         aria-label="Scroll to Contact Section"
                     >
-                        <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
+                        <h4 className="py-2 px-1.5 text-[12px] sm:px-3 sm:text-[14px] md:py-1 md:px-3">
               CONTACT
                         </h4>
                     </Link>
