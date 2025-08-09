@@ -27,11 +27,65 @@ export type ProjectProps = {
 };
 
 export const projects = [
+    {
+    id: 0,
+    name: "AeroPlanar",
+    description:
+      "AI Powered app designed for architects and engineers to streamline their workflows.",
+    technologies: [SiTypescript, SiReact, SiTailwindcss, SiPython, SiOpenai],
+    techNames: [
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "Python",
+      "OpenAI",
+    ],
+    techLinks: [
+      "https://www.typescriptlang.org/",
+      "https://reactjs.org/",
+      "https://nextjs.org/",
+      "https://tailwindcss.com/",
+      "https://python.org/",
+      "https://convex.app/",
+      "https://openai.com/",
+    ],
+    github: "https://github.com/Aerovity/AeroPlanar",
+    demo: "https://github.com/Aerovity/AeroPlanar",
+    image: "/projects/AeroPlanar.jpg",
+    available: true,
+  },
   {
     id: 0,
-    name: "Riglii - Algerian Freelance AI powered Website",
+    name: "MetaSahra ",
     description:
-      "One of the first Algerian AI powered freelance platforms, connecting freelancers with clients across various industries. With a modern design and user-friendly interface, it aims to empower local talent.",
+      "First NorthAfrican and Arab AI Agent focused Devloping Company.",
+    technologies: [SiTypescript, SiReact, SiTailwindcss, SiPython, SiOpenai],
+    techNames: [
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "Python",
+      "OpenAI",
+    ],
+    techLinks: [
+      "https://www.typescriptlang.org/",
+      "https://reactjs.org/",
+      "https://nextjs.org/",
+      "https://tailwindcss.com/",
+      "https://python.org/",
+      "https://convex.app/",
+      "https://openai.com/",
+    ],
+    github: "https://www.metasahra.com/",
+    demo: "https://www.metasahra.com/",
+    image: "/projects/MetaSahra.png",
+    available: true,
+  },
+  {
+    id: 0,
+    name: "Riglii - AI Powered NorthAfrican Freelance Website",
+    description:
+      "AI powered NorthAfrican Freelance Website",
     technologies: [SiTypescript, SiReact, SiTailwindcss, SiPython, SiOpenai],
     techNames: [
       "TypeScript",
@@ -137,5 +191,24 @@ export const projects = [
     demo: "https://www.linkedin.com/feed/update/urn:li:activity:7319007469408587776/",
     image: "/projects/LabelFlow.png",
     available: true,
-  }
+  },
+  {
+    id: 3,
+    name: "Tentacle 3D - AI-Powered 3D Modeling Tool",
+    description: "AI-powered application for 3D modeling and design.",
+    technologies: [SiPython, SiAnaconda, SiOpencv, SiTypescript, SiNvidia],
+    techNames: ["Python", "Ananconda", "OpenCV", "TypeScript", "Nvidia"],
+    techLinks: [
+      "https://www.python.org/",
+      "https://Ananconda.org/",
+      "https://OpenCV.org/",
+      "https://www.typescriptlang.org/",
+      "https://www.nvidia.com/"
+    ],
+    github: "https://github.com/Aerovity/Tentacle3D",
+    demo: "https://github.com/Aerovity/Tentacle3D",
+    image: "/projects/Tentacle.jpg",
+    available: true,
+  },
+  
 ];
