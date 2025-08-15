@@ -28,10 +28,37 @@ export type ProjectProps = {
 
 export const projects = [
     {
+      id: 0,
+      name: "AeroPlanar",
+      description:
+        "AI Powered app designed for architects and engineers to streamline their workflows.",
+      technologies: [SiTypescript, SiReact, SiTailwindcss, SiPython, SiOpenai],
+      techNames: [
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "Python",
+        "OpenAI",
+      ],
+      techLinks: [
+        "https://www.typescriptlang.org/",
+        "https://reactjs.org/",
+        "https://nextjs.org/",
+        "https://tailwindcss.com/",
+        "https://python.org/",
+        "https://convex.app/",
+        "https://openai.com/",
+      ],
+      github: "https://github.com/Aerovity/AeroPlanar",
+      demo: "https://github.com/Aerovity/AeroPlanar",
+      image: "/projects/AeroPlanar.jpg",
+      available: true,
+    },
+    {
     id: 0,
-    name: "AeroPlanar",
+    name: "BobeFlorian - Website",
     description:
-      "AI Powered app designed for architects and engineers to streamline their workflows.",
+      "Fully Integrated website with ( printshop , subscription , portfolio ) for French Illustrator Bobe Florian",
     technologies: [SiTypescript, SiReact, SiTailwindcss, SiPython, SiOpenai],
     techNames: [
       "TypeScript",
@@ -49,9 +76,9 @@ export const projects = [
       "https://convex.app/",
       "https://openai.com/",
     ],
-    github: "https://github.com/Aerovity/AeroPlanar",
-    demo: "https://github.com/Aerovity/AeroPlanar",
-    image: "/projects/AeroPlanar.jpg",
+    github: "https://bobe-florian.vercel.app/",
+    demo: "https://bobe-florian.vercel.app/",
+    image: "/projects/bobeflorian.png",
     available: true,
   },
   {

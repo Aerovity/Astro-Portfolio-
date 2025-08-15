@@ -11,7 +11,7 @@ const About = () => {
     >
       <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
         <AnimatedTitle
-          text={"Abdelaziz Brahmi, Backend and AI models Developer"}
+          text={"Abdelaziz (Zizou), Backend and AI models Developer"}
           className={
             "mb-10 text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
           }
@@ -25,7 +25,7 @@ const About = () => {
 
             <AnimatedBody
               delay={0.1}
-              text="As a Computer Science and Artificial Intelligence student at Royal Holloway, University of London, I am passionate about exploring the convergence of AI, full-stack development,🍃"
+              text="As a Artificial Intelligence and Computer Science student at Royal Holloway, University of London, I am passionate about exploring the convergence of AI, full-stack development,🍃"
             />
 
             <AnimatedBody

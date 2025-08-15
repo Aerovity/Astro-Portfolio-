@@ -30,6 +30,15 @@ import {
   SiTensorflow,
   SiNumpy,
   SiScikitlearn,
+  SiThreedotjs,
+  SiFastapi,
+  SiDjango,
+  SiSupabase,
+  SiFirebase,
+  SiOpenai,
+  SiAdobeillustrator,
+  SiAdobephotoshop,
+  SiAdobeaftereffects,
 } from "react-icons/si";
 import { DiJava } from "react-icons/di";
 import { BiLogoAws, BiLogoGoogleCloud } from "react-icons/bi";
@@ -67,6 +76,7 @@ const Tools = () => {
                 <SiReact size={50} />
                 <SiRemix size={50} />
                 <SiNextdotjs size={50} />
+                <SiThreedotjs size={50} />
               </AnimatedTools>
             </div>
           </div>
@@ -89,6 +99,10 @@ const Tools = () => {
                 <SiCplusplus size={50} />
                 <DiJava size={50} />
                 <SiRust size={50} />
+                <SiFastapi size={50} />
+                <SiDjango size={50} />
+                <SiSupabase size={50} />
+                <SiFirebase size={50} />
               </AnimatedTools>
             </div>
           </div>
@@ -109,15 +123,31 @@ const Tools = () => {
                 <SiAnaconda size={50} />
                 <SiDlib size={50} />
                 <SiGooglecloud size={50} />
+                <SiOpenai size={50} />
               </AnimatedTools>
             </div>
           </div>
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
-            <AnimatedBody delay={0.5} text="Other" />
+            <AnimatedBody delay={0.5} text="Design" />
             <div>
               <AnimatedTools
                 className="grid grid-cols-5 gap-4"
                 delay={0.5}
+                stepSize={0.1}
+                iconSize={50}
+              >
+                <SiAdobeillustrator size={50} />
+                <SiAdobephotoshop size={50} />
+                <SiAdobeaftereffects size={50} />
+              </AnimatedTools>
+            </div>
+          </div>
+          <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
+            <AnimatedBody delay={0.6} text="Other" />
+            <div>
+              <AnimatedTools
+                className="grid grid-cols-5 gap-4"
+                delay={0.6}
                 stepSize={0.1}
                 iconSize={50}
               >
