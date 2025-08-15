@@ -49,7 +49,7 @@ const ProjectCard = ({
                         priority={true}
                     />
                     {/* Mobile overlay for better text readability */}
-                    <div className="absolute inset-0 bg-black bg-opacity-40 md:hidden"></div>
+                    <div className="absolute inset-0 bg-black bg-opacity-70 md:hidden"></div>
                 </div>
                 <div
                     className={`absolute top-0 text-[#0E1016] ${
@@ -88,7 +88,7 @@ const ProjectCard = ({
                     )}
                 </div>
                 <div
-                    className={`absolute text-white w-full px-4 md:w-auto ${
+                    className={`absolute text-white w-full px-4 md:w-auto bg-black bg-opacity-30 md:bg-transparent rounded-lg md:rounded-none p-4 md:p-0 ${
                         !(id % 2 === 0)
                             ? "right-0 top-20 md:top-32 mr-0 ml-4 md:ml-10 md:right-0 md:ml-0 lg:right-0 lg:top-60  lg:mr-4"
                             : "left-4 md:left-10 top-20 md:top-32 ml-0 md:mr-12 lg:top-52 lg:ml-4"
