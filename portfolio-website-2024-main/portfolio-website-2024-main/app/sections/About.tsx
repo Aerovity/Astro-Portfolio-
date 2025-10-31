@@ -25,7 +25,7 @@ const About = () => {
 
             <AnimatedBody
               delay={0.1}
-              text="As a Artificial Intelligence and Computer Science student at Royal Holloway, University of London, I am passionate about exploring the convergence of AI, full-stack development,🍃"
+              text="As a second year Artificial Intelligence and Computer Science student at Royal Holloway, University of London, I am passionate about exploring the convergence of AI, full-stack development,🍃"
             />
 
             <AnimatedBody

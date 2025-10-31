@@ -12,7 +12,7 @@ const syne = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.example.com/"),
   title: "Abdelaziz Brahmi - Portfolio",
-  description: "Abdelaziz's portfolio website, showcasing my work and skills.",
+  description: "Abdelaziz's portfolio website - second year AI and Computer Science student, showcasing my work and skills.",
   generator: "Next.js",
   applicationName: "Portfolio template",
   keywords: [
