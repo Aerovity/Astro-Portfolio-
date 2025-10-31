@@ -20,6 +20,7 @@ const ProjectCard = ({
     demo,
     image,
     available,
+    categories,
 }: ProjectProps) => {
     return (
         <motion.div
