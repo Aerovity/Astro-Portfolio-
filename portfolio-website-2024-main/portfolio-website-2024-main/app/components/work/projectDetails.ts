@@ -24,6 +24,7 @@ export type ProjectProps = {
   demo: string;
   image: string;
   available: boolean;
+  categories: string[];
 };
 
 export const projects = [
@@ -53,9 +54,10 @@ export const projects = [
       demo: "https://github.com/Aerovity/AeroPlanar",
       image: "/projects/AeroPlanar.jpg",
       available: true,
+      categories: ["ML", "Web/Software Dev", "FrontEnd"],
     },
     {
-    id: 0,
+    id: 1,
     name: "BobeFlorian - Website",
     description:
       "Fully Integrated website with ( printshop , subscription , portfolio ) for French Illustrator Bobe Florian",
@@ -80,9 +82,10 @@ export const projects = [
     demo: "https://bobe-florian.vercel.app/",
     image: "/projects/bobeflorian.png",
     available: true,
+    categories: ["Web/Software Dev", "FrontEnd", "Database"],
   },
   {
-    id: 0,
+    id: 2,
     name: "MetaSahra ",
     description:
       "First NorthAfrican and Arab AI Agent focused Devloping Company.",
@@ -107,9 +110,10 @@ export const projects = [
     demo: "https://www.metasahra.com/",
     image: "/projects/MetaSahra.png",
     available: true,
+    categories: ["ML", "Web/Software Dev", "FrontEnd"],
   },
   {
-    id: 0,
+    id: 3,
     name: "Riglii - AI Powered NorthAfrican Freelance Website",
     description:
       "AI powered NorthAfrican Freelance Website",
@@ -134,9 +138,10 @@ export const projects = [
     demo: "https://riglii.com/",
     image: "/projects/riglii.png",
     available: true,
+    categories: ["ML", "Web/Software Dev", "FrontEnd", "Database"],
   },
   {
-    id: 0,
+    id: 4,
     name: "CV-Vision",
     description:
       "Your AI web-extension CV assistant, helping you to create CVs that stands out.",
@@ -161,9 +166,10 @@ export const projects = [
     demo: "https://github.com/faisalmujawar148/cvision",
     image: "/projects/Cvision.png",
     available: true,
+    categories: ["ML", "Web/Software Dev", "FrontEnd"],
   },
   {
-    id: 1,
+    id: 5,
     name: ":)Smiley",
     description:
       "AI trained Fake Smile Detector Model.",
@@ -180,10 +186,11 @@ export const projects = [
     demo: "https://www.linkedin.com/posts/abdelaziz-brahmi_we-all-face-people-giving-us-fake-smiles-activity-7313195640690245635-_c4e?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFQBIYYBoelbzKzwGq2qpl5YgA7OfPAZ7EQ",
     image: "/projects/smiley.jpg",
     available: true,
+    categories: ["ML", "Computer Vision", "DataScience"],
   },
 
   {
-    id: 2,
+    id: 6,
     name: "ArticSense",
     description:
       "AI trained Model to detect and classify polar animal species.",
@@ -200,9 +207,10 @@ export const projects = [
     demo: "https://www.linkedin.com/feed/update/urn:li:activity:7318308996644331529/",
     image: "/projects/ArticSense.png",
     available: true,
+    categories: ["ML", "Computer Vision", "DataScience"],
   },
   {
-    id: 3,
+    id: 7,
     name: "LabelFlow",
     description: "AI-powered application for automated data labeling using Nvidia Grounding Dino",
     technologies: [SiPython, SiAnaconda, SiOpencv, SiTypescript, SiNvidia],
@@ -218,9 +226,10 @@ export const projects = [
     demo: "https://www.linkedin.com/feed/update/urn:li:activity:7319007469408587776/",
     image: "/projects/LabelFlow.png",
     available: true,
+    categories: ["ML", "Computer Vision", "Web/Software Dev", "DataScience"],
   },
   {
-    id: 3,
+    id: 8,
     name: "Tentacle 3D - AI-Powered 3D Modeling Tool",
     description: "AI-powered application for 3D modeling and design.",
     technologies: [SiPython, SiAnaconda, SiOpencv, SiTypescript, SiNvidia],
@@ -236,6 +245,7 @@ export const projects = [
     demo: "https://github.com/Aerovity/Tentacle3D",
     image: "/projects/Tentacle.jpg",
     available: true,
+    categories: ["ML", "Computer Vision", "2D/3D", "Web/Software Dev"],
   },
-  
+
 ];

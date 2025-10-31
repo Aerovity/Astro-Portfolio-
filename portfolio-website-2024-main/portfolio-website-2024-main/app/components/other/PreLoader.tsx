@@ -18,14 +18,14 @@ const PreLoader: React.FC = () => {
           delay: 1,
           y: 70,
           skewY: 10,
-          stagger: 0.4,
+          stagger: 0,
           ease: "Power3.easeOut",
         })
         .to(".texts-container span", {
           duration: 1,
           y: 70,
           skewY: -20,
-          stagger: 0.2,
+          stagger: 0,
           ease: "Power3.easeOut",
         })
         .to("body", {
@@ -95,11 +95,8 @@ const PreLoader: React.FC = () => {
           height: "60px",
         }}
       >
-        <span>Software Engineer</span>
-        <span> / </span>
-
-        <span className="flex items-center justify-center gap-3">
-          Obsessed with building scalable, maintainable, and efficient software.
+        <span className="flex items-center justify-center gap-2">
+          Software Engineer / Obsessed with building scalable, maintainable, and efficient software.
         </span>
         <div className="sub hidden"></div>
       </div>
